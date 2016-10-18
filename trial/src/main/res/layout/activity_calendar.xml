@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <com.antking.library.uicore.builded.slider.Slider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="#fafbfc"
+            android:visibility="gone"
+            app:header_button_left_border_padding="2dp"
+            app:header_button_right_border_padding="2dp" />
+        <com.antking.library.uicore.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            android:text="This is CustomTextView showcase"
+            style="@style/Example.Text.Regular"/>
+        <com.antking.library.uicore.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is helvetica-neue-ultra-light"
+            style="@style/Example.Text.UltraLight.Caption"/>
+
+        <com.antking.library.uicore.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is helvetica-neue-light"
+            style="@style/Example.Text.Light.Caption"/>
+
+        <com.antking.library.uicore.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is helvetica-neue-regular"
+            style="@style/Example.Text.Regular.Caption"/>
+
+        <com.antking.library.uicore.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is helvetica-neue-medium"
+            style="@style/Example.Text.Medium.Caption"/>
+
+        <com.antking.library.uicore.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is helvetica-neue-Bold"
+            style="@style/Example.Text.Bold.Caption"/>
+
+        <com.antking.library.uicore.CustomTextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fix it's dimension size"
+            style="@style/Example.Text.Light.AutoFit"/>
+
+        <com.antking.library.uicore.CustomTextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Fix it's dimension size and font size will be auto adjusted to fit it, it can be single line or multi line"
+            style="@style/Example.Text.Light.AutoFit"/>
+
+        <RelativeLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="@dimen/text_view_show_case_image_height"
+                android:layout_height="@dimen/text_view_show_case_image_height" />
+
+            <com.antking.library.uicore.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:imageHeight="@dimen/text_view_show_case_image_height"
+                app:imageWidth="@dimen/text_view_show_case_image_height"
+                android:text="@string/text_view_showcase_test_String"
+                style="@style/Example.Text.Light"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

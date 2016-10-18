@@ -1,0 +1,147 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Example Style -->
+    <style name="Example">
+    </style>
+
+    <!-- Example Style for custom TextView, EditText and Button -->
+    <style name="Example.Text">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <!-- Ultra Light -->
+    <style name="Example.Text.UltraLight">
+        <item name="font">fonts/helvetica-neue-ultra-light.ttf</item>
+    </style>
+    <style name="Example.Text.UltraLight.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+    <style name="Example.Text.UltraLight.Body">
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+    <style name="Example.Text.UltraLight.SubHeading">
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+    </style>
+    <style name="Example.Text.UltraLight.Title">
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+    <style name="Example.Text.UltraLight.Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+    </style>
+    <style name="Example.Text.UltraLight.Display">
+        <item name="android:textSize">@dimen/text_size_display</item>
+    </style>
+    <!-- Light -->
+    <style name="Example.Text.Light">
+        <item name="font">fonts/helvetica-neue-light.ttf</item>
+    </style>
+    <style name="Example.Text.Light.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+    <style name="Example.Text.Light.Body">
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+    <style name="Example.Text.Light.SubHeading">
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+    </style>
+    <style name="Example.Text.Light.Title">
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+    <style name="Example.Text.Light.Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+    </style>
+    <style name="Example.Text.Light.Display">
+        <item name="android:textSize">@dimen/text_size_display</item>
+    </style>
+
+    <style name="Example.Text.Light.AutoFit">
+        <item name="font">fonts/helvetica-neue-light.ttf</item>
+        <item name="autoFit">true</item>
+    </style>
+
+    <style name="Example.Text.Regular">
+        <item name="font">fonts/helvetica-neue-regular.ttf</item>
+    </style>
+    <style name="Example.Text.Regular.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+    <style name="Example.Text.Regular.Body">
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+    <style name="Example.Text.Regular.SubHeading">
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+    </style>
+    <style name="Example.Text.Regular.Title">
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+    <style name="Example.Text.Regular.Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+    </style>
+    <style name="Example.Text.Regular.Display">
+        <item name="android:textSize">@dimen/text_size_display</item>
+    </style>
+
+    <style name="Example.Text.Medium">
+        <item name="font">fonts/helvetica-neue-medium.ttf</item>
+    </style>
+    <style name="Example.Text.Medium.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+    <style name="Example.Text.Medium.Body">
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+    <style name="Example.Text.Medium.SubHeading">
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+    </style>
+    <style name="Example.Text.Medium.Title">
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+    <style name="Example.Text.Medium.Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+    </style>
+    <style name="Example.Text.Medium.Display">
+        <item name="android:textSize">@dimen/text_size_display</item>
+    </style>
+
+    <style name="Example.Text.Bold">
+        <item name="font">fonts/helvetica-neue-bold.ttf</item>
+    </style>
+    <style name="Example.Text.Bold.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+    <style name="Example.Text.Bold.Body">
+        <item name="android:textSize">@dimen/text_size_body</item>
+    </style>
+    <style name="Example.Text.Bold.SubHeading">
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+    </style>
+    <style name="Example.Text.Bold.Title">
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+    <style name="Example.Text.Bold.Headline">
+        <item name="android:textSize">@dimen/text_size_headline</item>
+    </style>
+    <style name="Example.Text.Bold.Display">
+        <item name="android:textSize">@dimen/text_size_display</item>
+    </style>
+</resources>

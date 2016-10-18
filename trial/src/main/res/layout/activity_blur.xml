@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.antking.library.activities.BlurActivity">
+
+    <LinearLayout
+        android:id="@+id/rl_source"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/scence">
+    </LinearLayout>
+
+    <com.antking.library.uicore.BlurView
+        android:layout_centerInParent="true"
+        android:layout_width="800px"
+        android:layout_height="800px"
+        app:view_source="@+id/rl_source"
+        app:over_color="#DDffffff"
+        app:shape="rectangle"
+        app:blur_radius="25"
+        app:corner_radius="12dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="120px"
+            android:background="#00FFFFFF">
+            <com.antking.library.uicore.CustomTextView
+                android:paddingTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open"
+                style="@style/Example.Text.Light.SubHeading"
+                android:textColor="#3f3f3f"/>
+            <com.antking.library.uicore.CustomTextView
+                android:paddingTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                style="@style/Example.Text.Light.SubHeading"
+                android:textColor="#3f3f3f"/>
+            <com.antking.library.uicore.CustomTextView
+                android:paddingTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="More"
+                style="@style/Example.Text.Light.SubHeading"
+                android:textColor="#3f3f3f"/>
+        </LinearLayout>
+    </com.antking.library.uicore.BlurView>
+
+</RelativeLayout>

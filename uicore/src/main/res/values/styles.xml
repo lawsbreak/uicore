@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom CalendarView Styles -->
+    <style name="CustomCalendarView"/>
+    <!-- Title Style -->
+    <style name="CustomCalendarView.Title">
+
+    </style>
+</resources>
